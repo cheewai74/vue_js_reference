@@ -8,6 +8,8 @@
 7. Create a .babelrc file inside src folder
 8. npx babel-node src/server.js
 9. Type /hello and web page should response Hello!
+10. npm install --save-dev nodemon
+11. npx nodemon --exec npx babel-node  src/server.js
 ```
 
 src folder:</BR>
