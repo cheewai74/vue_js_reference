@@ -5,7 +5,13 @@
 4. npm install express
 5. npm install --save-dev @babel/core @babel/node @babel/preset-env @babel/cli @babel/plugin-transform-runtime
 6. npm install @babel/runtime
-7. Create a .babelrc file
+7. Create a .babelrc file inside src folder
+```
+
+src folder:</BR>
+```
+1. server.js
+2. .babelrc
 ```
 
 .balelrc file:</BR>
