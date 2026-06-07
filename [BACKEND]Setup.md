@@ -9,7 +9,7 @@
 8. npx babel-node src/server.js
 9. Type /hello and web page should response Hello!
 10. npm install --save-dev nodemon
-11. npx nodemon --exec npx babel-node  src/server.js
+11. npx nodemon --exec npx babel-node  src/server.js - Short cut: append package.json
 ```
 
 src folder:</BR>
@@ -43,4 +43,12 @@ app.get("/hello", (req, res) => {
 app.listen(8000, () => {
   console.log("Server is listening on port 8000");
 });
+```
+
+Append package.json:</BR>
+```
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon --exec npx babel-node  src/server.js"
+  },
 ```
