@@ -7,6 +7,7 @@
 6. npm install @babel/runtime
 7. Create a .babelrc file inside src folder
 8. npx babel-node src/server.js
+9. Type /hello and web page should response Hello!
 ```
 
 src folder:</BR>
