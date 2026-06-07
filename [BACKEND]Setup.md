@@ -1,4 +1,5 @@
 ```
 1. Create backend folder
 2. npm init -y
+3. npm install express
 ```
